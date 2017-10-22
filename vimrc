@@ -31,6 +31,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " Use git to list files and ignore entries from .gitignore
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
+" better auto-completion
+Plugin 'Valloric/YouCompleteMe'
 " File browser + git support
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -39,8 +41,6 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 " F2 to toggle NERD tree
 nmap <F2> :NERDTreeToggle<CR>
 " }}}
-
-" vim status next to line numbers
 
 " colorschemes
 Plugin 'vim-scripts/xoria256.vim'
