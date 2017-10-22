@@ -43,6 +43,9 @@ Plugin 'Valloric/YouCompleteMe'
 " Git Ui for vim
 Plugin 'tpope/vim-fugitive'
 
+" Async execution
+Plugin 'Shougo/vimproc.vim'
+
 " File browser + git support
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -64,7 +67,13 @@ let g:user_emmet_leader_key='<space>'
 autocmd FileType html,xml,css EmmetInstall
 " }}}
 
+" typescript syntax, indentation, completion, ...
+Plugin 'leafgarland/typescript-vim'
+Plugin 'jason0x43/vim-js-indent'
+Plugin 'Quramy/tsuquyomi'
 
+" Syntax highlighting for template strings
+Plugin 'Quramy/vim-js-pretty-template'
 
 " colorschemes
 Plugin 'vim-scripts/xoria256.vim'
