@@ -26,6 +26,11 @@ Plugin 'tomtom/tcomment_vim'
 " text object for function arguments
 Plugin 'vim-scripts/argtextobj.vim'
 
+" Fuzzy finder
+Plugin 'ctrlpvim/ctrlp.vim'
+" Use git to list files and ignore entries from .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
 " File browser + git support
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
