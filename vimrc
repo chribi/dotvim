@@ -20,6 +20,9 @@ Plugin 'tpope/vim-surround'
 " . for repeating remapped commands from supported plugins
 Plugin 'tpope/vim-repeat'
 
+" convenient forward/backward commands using [,]
+Plugin 'tpope/vim-unimpaired'
+
 " Comment/uncomment using gc
 Plugin 'tomtom/tcomment_vim'
 
