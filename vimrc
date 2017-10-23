@@ -26,6 +26,9 @@ Plugin 'tomtom/tcomment_vim'
 " text object for function arguments
 Plugin 'vim-scripts/argtextobj.vim'
 
+" Highlight trailing whitespace
+Plugin 'bronson/vim-trailing-whitespace'
+
 " Fuzzy finder
 Plugin 'ctrlpvim/ctrlp.vim'
 " Use git to list files and ignore entries from .gitignore
@@ -77,6 +80,10 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Show tabs
+set listchars=tab:▸\ 
+set list
 
 " break long lines in editor
 set wrap linebreak
