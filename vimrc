@@ -39,6 +39,10 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 
 " better auto-completion
 Plugin 'Valloric/YouCompleteMe'
+
+" Git Ui for vim
+Plugin 'tpope/vim-fugitive'
+
 " File browser + git support
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
