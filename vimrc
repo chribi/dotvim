@@ -56,6 +56,15 @@ nmap <F2> :NERDTreeToggle<CR>
 Plugin 'gregsexton/MatchTag'
 Plugin 'alvan/vim-closetag'
 Plugin 'matchit.zip'
+Plugin 'mattn/emmet-vim'
+" emmet options {{{2
+let g:user_emmet_install_global = 0
+let g:user_emmet_mode='nv'
+let g:user_emmet_leader_key='<space>'
+autocmd FileType html,xml,css EmmetInstall
+" }}}
+
+
 
 " colorschemes
 Plugin 'vim-scripts/xoria256.vim'
