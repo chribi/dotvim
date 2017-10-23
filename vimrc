@@ -48,6 +48,11 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 nmap <F2> :NERDTreeToggle<CR>
 " }}}
 
+" xml/html plugins
+Plugin 'gregsexton/MatchTag'
+Plugin 'alvan/vim-closetag'
+Plugin 'matchit.zip'
+
 " colorschemes
 Plugin 'vim-scripts/xoria256.vim'
 Plugin 'altercation/vim-colors-solarized'
