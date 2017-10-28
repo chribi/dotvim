@@ -67,6 +67,11 @@ let g:user_emmet_leader_key='<space>'
 autocmd FileType html,xml,css EmmetInstall
 " }}}
 
+" Javascript, jsx
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+let g:jsx_ext_required = 0
+
 " typescript syntax, indentation, completion, ...
 Plugin 'leafgarland/typescript-vim'
 Plugin 'jason0x43/vim-js-indent'
