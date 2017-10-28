@@ -62,6 +62,7 @@ let g:EditorConfig_exclude_patterns = [ 'fugitive://.*' ]
 " xml/html plugins
 Plugin 'gregsexton/MatchTag'
 Plugin 'alvan/vim-closetag'
+let g:closetag_filenames = "*.html,*.xhtml,*.jsx,*.js,*.xml"
 Plugin 'matchit.zip'
 Plugin 'mattn/emmet-vim'
 " emmet options {{{2
