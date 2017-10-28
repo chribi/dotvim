@@ -55,6 +55,10 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 nmap <F2> :NERDTreeToggle<CR>
 " }}}
 
+" editorconfig
+Plugin 'editorconfig/editorconfig-vim'
+let g:EditorConfig_exclude_patterns = [ 'fugitive://.*' ]
+
 " xml/html plugins
 Plugin 'gregsexton/MatchTag'
 Plugin 'alvan/vim-closetag'
